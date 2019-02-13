@@ -1,16 +1,18 @@
-$version = "2.1.1";
+$version = "2.4.0";
 
 npm install -g create-nuxt-app@$version
 Remove-Item .\Source -Force -Recurse;
 npx create-nuxt-app ummati
 # ? Project name ummati
-# ? Project description My wondrous Nuxt.js project
+# ? Project description My groundbreaking Nuxt.js project
 # ? Use a custom server framework none
+# ? Progressive Web App (PWA) Support yes
+# ? Linter / Formatter yes
+# ? Prettier yes
+# ? Axios no
 # ? Use a custom UI framework none
+# ? Use a custom test framework jest
 # ? Choose rendering mode Universal
-# ? Use axios module no
-# ? Use eslint yes
-# ? Use prettier yes
 # ? Author name Muhammad Rehan Saeed
 # ? Choose a package manager npm
 Rename-Item -Path ummati -NewName Source;

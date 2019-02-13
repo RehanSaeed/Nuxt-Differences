@@ -1,6 +1,6 @@
 # ummati
 
-> My wondrous Nuxt.js project
+> My groundbreaking Nuxt.js project
 
 ## Build Setup
 

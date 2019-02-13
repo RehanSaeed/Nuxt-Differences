@@ -18,6 +18,8 @@ npx create-nuxt-app ummati
 Rename-Item -Path ummati -NewName Source;
 git add .
 git commit -m "$version"
+git checkout master
 git push
 git branch $version
 git push
+git checkout master
